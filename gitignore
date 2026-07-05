@@ -1,0 +1,21 @@
+# ---- Python virtual environments (these are what likely broke the push) ----
+.venv/
+venv/
+
+# ---- Secrets / environment variables — never commit real API keys ----
+.env
+env
+
+# ---- Python cache ----
+__pycache__/
+*.pyc
+*.pyo
+
+# ---- OS / editor cruft ----
+.DS_Store
+.vscode/
+.idea/
+
+# ---- Uploaded runtime files: keep the folder, ignore what lands in it ----
+uploads/*
+!uploads/.gitkeep
